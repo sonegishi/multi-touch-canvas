@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="robots" content="noarchive" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+    <meta name="landscape" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+    <title>Multi-touch Canvas</title>
+    <script defer src="/__/firebase/7.0.0/firebase-app.js"></script>
+    <script defer src="/__/firebase/init.js"></script>
+    <script src="script.js"></script>
+    <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+      }
+
+      html {
+        /* background-color: #000; */
+        /* color: #eee; */
+        /* color: black; */
+      }
+
+      label {
+        margin-right: 3px;
+      }
+
+      #canvas {
+        display: block;
+        margin: 5px 0 10px;
+        border: 1px solid #666;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h2>Multi-touch Canvas</h2>
+      <button id='clear'>Clear</button>
+      <br />
+      <canvas id='canvas'></canvas>
+    </div>
+  </body>
+</html>
